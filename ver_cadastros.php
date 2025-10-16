@@ -1,7 +1,6 @@
 <?php
 include 'conexao.php';
 
-
 if(isset($_GET['success']) && $_GET['success'] == '1') {
     $mensagem_sucesso = "Cadastro realizado com sucesso!";
 }
@@ -68,4 +67,5 @@ $resultado = mysqli_query($conexao, $sql);
 <?php
 
 mysqli_close($conexao);
+
 ?>
