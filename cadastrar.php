@@ -2,7 +2,6 @@
 
 include 'conexao.php';
 
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   
     $nome = mysqli_real_escape_string($conexao, $_POST['nome']);
@@ -31,4 +30,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "Método inválido!";
     echo "<br><a href='formulario.php' class='back-link'>← Voltar ao formulário</a>";
 }
+
 ?>
