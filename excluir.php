@@ -2,7 +2,6 @@
 
 include 'conexao.php';
 
-
 if(isset($_GET['id'])) {
     $id = mysqli_real_escape_string($conexao, $_GET['id']);
     
@@ -21,4 +20,5 @@ if(isset($_GET['id'])) {
 } else {
     echo "ID não especificado!";
 }
+
 ?>
