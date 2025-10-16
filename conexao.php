@@ -5,7 +5,6 @@ $usuario = "root";
 $senha = ""; 
 $banco = "meucadastro";
 
-
 $conexao = mysqli_connect($servidor, $usuario, $senha, $banco);
 
 
@@ -15,4 +14,5 @@ if (!$conexao) {
 
 
 mysqli_set_charset($conexao, "utf8");
+
 ?>
