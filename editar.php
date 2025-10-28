@@ -8,7 +8,7 @@ if(isset($_GET['id'])) {
     header("Location: ver_cadastros.php?message=Funcionalidade de edição em desenvolvimento!");
     exit();
 }
-
 ?>
 
 -- conexão com PDO, tipo de conexão com o banco de dados -- 
+
