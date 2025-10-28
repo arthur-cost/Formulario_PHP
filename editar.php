@@ -9,6 +9,6 @@ if(isset($_GET['id'])) {
     exit();
 }
 ?>
-
 -- conexão com PDO, tipo de conexão com o banco de dados -- 
+
 
